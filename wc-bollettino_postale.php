@@ -7,7 +7,7 @@ Version: 1.0
 Author: Rob Clarke
 Author URI: 
 
-  Copyright: © 2012 Rob Clarke
+  Copyright: Â© 2012 Rob Clarke
   License: GNU General Public License v3.0
   License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -75,7 +75,7 @@ function woocommerce_bollettino_postale_init() {
         'description' => array(
                 'title' => __( 'Messaggio personalizzato', 'woocommerce' ), 
                 'type' => 'textarea', 
-                'description' => __( 'Spiega al cliente come procedere con un bollettino postale. Segnala che la merce non sarà inviata fino al ricevimento del pagamento.', 'woocommerce' ), 
+                'description' => __( 'Spiega al cliente come procedere con un bollettino postale. Segnala che la merce non sarÃ  inviata fino al ricevimento del pagamento.', 'woocommerce' ), 
                 'default' => __('Paga con un bollettino postale. Mandaci una mail appena hai fatto il versamento indicando il numero d\'ordine e provvederemo all\'invio della merce.', 'woocommerce')
               ),
         'account_name' => array(
